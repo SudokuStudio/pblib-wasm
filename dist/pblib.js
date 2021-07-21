@@ -6554,6 +6554,4 @@ run();
 }
 );
 })();
-export default Module;// HELLO WORLD.
-console.log('hello world');
-
+export default Module;
