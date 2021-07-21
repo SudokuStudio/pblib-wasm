@@ -18,7 +18,7 @@ source ./emsdk_env.sh
 popd
 
 # Get pblib.
-git clone https://github.com/master-keying/pblib.git
+git clone --recurse-submodules https://github.com/master-keying/pblib.git
 pushd pblib
 
 # Make pblib.
