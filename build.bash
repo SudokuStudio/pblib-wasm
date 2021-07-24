@@ -32,4 +32,4 @@ popd
 popd
 
 # Build api.cpp.
-em++ pblib/build/libpb.a --bind api.cpp -s EXPORT_ES6=1 -o dist/pblib.js
+em++ pblib/build/libpb.a --bind api.cpp -s EXPORT_ES6=1 -s ALLOW_MEMORY_GROWTH=1 -o dist/pblib.js
