@@ -1,20 +1,17 @@
 {
-  "name": "pblib-wasm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@sudoku-studio/pblib",
+  "version": "0.0.0",
+  "description": "WASM-based toolkit for encoding pseudo-boolean constraints into CNF for SAT solvers",
   "main": "dist/pblib.js",
   "types": "pblib.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "files": [ "pblib.d.ts", "dist/**/*" ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MingweiSamuel/pblib-wasm.git"
+    "url": "git+https://github.com/SudokuStudio/pblib-wasm.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MingweiSamuel/pblib-wasm/issues"
+    "url": "https://github.com/SudokuStudio/pblib-wasm/issues"
   },
-  "homepage": "https://github.com/MingweiSamuel/pblib-wasm#readme"
+  "homepage": "https://github.com/SudokuStudio/pblib-wasm#readme"
 }
