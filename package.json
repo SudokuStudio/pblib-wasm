@@ -1,6 +1,6 @@
 {
   "name": "@sudoku-studio/pblib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "WASM-based toolkit for encoding pseudo-boolean constraints into CNF for SAT solvers",
   "main": "dist/pblib.js",
   "types": "pblib.d.ts",
