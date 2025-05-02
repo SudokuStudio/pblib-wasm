@@ -5,4 +5,4 @@ export type Module = {
     encodeGeq(weights: number[], literals: number[], geq: number, formula: number[][], firstAuxiliaryVariable: number): number;
     encodeBoth(weights: number[], literals: number[], leq: number, geq:number, formula: number[][], firstAuxiliaryVariable: number): number;
 };
-export default function loadPbLib(): Promise<Module>;
+export function load(): Promise<Module>;
